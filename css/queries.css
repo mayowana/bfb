@@ -1,0 +1,160 @@
+
+@media only screen and (max-width: 1200px) {
+	.homepagetext	 {
+						width: 100%;
+						padding: 0 2%;
+					}
+
+	.row { padding: 0 2%; }
+}
+
+
+@media only screen and (max-width: 1023px) {
+	body { font-size: 18px; }
+    section { padding: 60px 0; }
+	
+	
+
+
+
+@media only screen and (max-width: 767px) {
+
+	
+	body { 
+		font-size: 16px;
+	}
+    section { padding: 30px ; }
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+	}
+
+	.row {
+		width: 90vw;
+		margin: 0 auto;
+		
+	}
+	
+	.main-nav {
+		display: block;
+		text-align: center;
+		max-width: 100vw;
+	}
+
+	.mobile-nav {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.mobile-nav ion-icon {
+		font-size: 30px;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.logo-div {
+		padding-top: 10px;
+	}
+
+	.menu-div li {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+
+	.icon-div {
+		text-align: center;
+	}
+
+	.menu-div,
+	.icon-div {
+		display: none;
+	}
+
+	.header {
+		margin-top: 13vh;
+		font-size: 18px;
+	}
+
+	.size-button:first-child {
+		margin-bottom: 2vh;
+	}
+
+	.size-button:last-child {
+		margin-left: 0px;
+	}
+
+	.modal {
+		position: fixed;
+		display: none;
+		top: 10%;
+		left: 5%;
+		height: 50%;
+		width: 50%;
+		z-index: 200;
+	}
+
+	.modal img {
+		width: 80vw;
+	}
+
+	.buy-button {
+		margin-top: 5vh;
+	}
+
+	.tab-head a {
+		display: inline-block;
+		margin-right: 2vw;
+		font-family: 'Montserrat';
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: #2D2D2D;
+	}
+
+	.tab-text {
+		margin-top: 3vh;
+	}
+
+	.recommended {
+		margin-top: 5vh;
+	}
+
+	.rec-list img {
+		width: 90vw;
+		height: auto;
+	}
+
+	.footer {
+		font-size: 14px;
+	}
+
+	.mid-bar {
+		position: static;
+	}
+	
+	.last-bar {
+		position: static
+	}
+
+	.footer-menu {
+		margin-bottom: 1vh;
+	}
+
+	.footer p {
+		font-weight: bold;
+		margin-top: 60px;
+		margin-bottom: 1vh;
+	}
+@media only screen and (max-width: 480px) {
+
+	 section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+
+.form-page {
+	padding: 0;
+	}
+}
+}
+}
